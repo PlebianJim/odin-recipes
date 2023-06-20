@@ -19,6 +19,18 @@ body {
     gap: 5vh;
     height: 100vh;
     width: 100vw;
+    background-color: black;
+}
+
+.index-flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+    border: 2px solid black;
+    background-color: white;
+    padding: 5%; 
 }
 
 .index-H1 {
@@ -38,6 +50,7 @@ body {
     list-style: none;
     font-weight: 200;
     font-size: 3vh;
+    color: black;
 }
 
 .index-anchor-link {
@@ -54,6 +67,7 @@ body {
 
 .index-anchor-link:hover {
     animation: bounce 0.3s infinite;
+    color: black;
 }
 
 /* mockCurryGoat specific selectors */
@@ -68,10 +82,28 @@ body {
 
 .recipes-body {
     gap: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.recipes-flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+    border: 2px solid black;
+    background-color: white;
+    padding: 5%;
+    margin: 5%; 
 }
 
 .recipes-h1 {
     padding: 2vh;
+    font-size: 10vh;
 }
 
 .recipes-h2 {
@@ -89,6 +121,8 @@ body {
 
 .recipes-p {
     font-style: italic;
+    width: 60vw;
+    text-align: center;
 }
 
 .fas {
