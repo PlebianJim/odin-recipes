@@ -1,0 +1,76 @@
+/* Universal selectors */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Overpass', sans-serif;
+    font-family: 'Pathway Extreme', sans-serif;
+}
+
+/* index specific selectors */
+
+.index-body {
+    gap: 5vh;
+    height: 100vh;
+    width: 100vw;
+}
+
+.index-H1 {
+    font-weight: 700;
+    font-size: 10vh;
+}
+
+.index-unordered-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.index-list-item {
+    list-style: none;
+    font-weight: 200;
+    font-size: 3vh;
+}
+
+.index-anchor-link {
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+}
+
+@keyframes bounce {
+    0% {transform: translateY(0); }
+    50% {transform: translateY(-5px); }
+    100% {transform: translateY(0); }
+}
+
+.index-anchor-link:hover {
+    animation: bounce 0.3s infinite;
+}
+
+/* mockCurryGoat specific selectors */
+
+.mockGoatCurry-img {
+    transform: rotate(90deg);
+    height: fit-content;
+    width: fit-content;
+}
+
+/* general selectors */
+
+.recipes-body {
+    gap: 2vh;
+}
+
+.recipes-h1 {
+    padding: 2vh;
+    margin-top: 10vh; 
+}
