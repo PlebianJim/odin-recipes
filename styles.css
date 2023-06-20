@@ -72,5 +72,27 @@ body {
 
 .recipes-h1 {
     padding: 2vh;
-    margin-top: 10vh;
+}
+
+.recipes-h2 {
+    text-decoration: underline;
+    margin-top: 3vh;
+}
+
+.recipes-ol {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    gap: 2vh;
+    margin: 5vh;
+}
+
+.recipes-p {
+    font-style: italic;
+}
+
+.fas {
+    font-size: 50px;
+    color: black;
+    padding: 5vh;
 }
